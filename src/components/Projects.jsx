@@ -32,9 +32,9 @@ const Projects = () => {
                     {/* Artisanal Coffee Shop Landing Page */}
                     <div className="project-card reveal-up">
                         <div className="project-img-wrapper">
-                            <img src="/thenul ui design.png" alt="Artisanal Coffee Shop Landing Page" className="project-img" />
+                            <img src={`${import.meta.env.BASE_URL}thenul ui design.png`} alt="Artisanal Coffee Shop Landing Page" className="project-img" />
                             <div className="project-overlay">
-                                <a href="/coffee-shop-project.html" className="view-project-btn" title="View Project Case Study">
+                                <a href={`${import.meta.env.BASE_URL}coffee-shop-project.html`} className="view-project-btn" title="View Project Case Study">
                                     <i className="fas fa-external-link-alt"></i>
                                 </a>
                             </div>
@@ -48,7 +48,7 @@ const Projects = () => {
                                 <li><i className="fas fa-mobile-alt" style={{ color: 'var(--secondary-color)' }}></i> Responsive UI</li>
                                 <li><i className="fas fa-font" style={{ color: '#d97706' }}></i> Typography</li>
                             </ul>
-                            <a href="/coffee-shop-project.html" className="btn btn-secondary" style={{ marginTop: '1.5rem', padding: '0.6rem 1.2rem', fontSize: '0.9rem', alignSelf: 'flex-start' }}>
+                            <a href={`${import.meta.env.BASE_URL}coffee-shop-project.html`} className="btn btn-secondary" style={{ marginTop: '1.5rem', padding: '0.6rem 1.2rem', fontSize: '0.9rem', alignSelf: 'flex-start' }}>
                                 View Case Study <i className="fas fa-arrow-right"></i>
                             </a>
                         </div>

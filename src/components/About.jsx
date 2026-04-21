@@ -29,7 +29,7 @@ const About = () => {
                 <div className="about-content">
                     <div className="about-image-wrapper reveal-left">
                         <div className="image-box side-image">
-                            <img src="/about-profile.png" alt="Thenul Damdika" className="profile-img" />
+                            <img src={`${import.meta.env.BASE_URL}about-profile.png`} alt="Thenul Damdika" className="profile-img" />
                         </div>
                     </div>
                     <div className="about-text reveal-right">
@@ -64,7 +64,7 @@ const About = () => {
                             </div>
                         </div>
                         <div style={{ marginTop: "2.5rem", display: "flex", gap: "1rem" }}>
-                            <a href="/Thenul_Damdika_Resume.pdf" download="Thenul_Damdika_Resume.pdf" className="btn btn-primary">
+                            <a href={`${import.meta.env.BASE_URL}Thenul_Damdika_Resume.pdf`} download="Thenul_Damdika_Resume.pdf" className="btn btn-primary">
                                 <i className="fas fa-download"></i> Download Resume
                             </a>
                         </div>

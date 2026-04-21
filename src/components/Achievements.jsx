@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 
 const Achievements = () => {
     const sectionRef = useRef(null);
-    const [activeCert, setActiveCert] = useState("/Screenshot 2026-03-12 204103.png");
+    const [activeCert, setActiveCert] = useState(`${import.meta.env.BASE_URL}Screenshot 2026-03-12 204103.png`);
     const [lightboxOpen, setLightboxOpen] = useState(false);
 
     useEffect(() => {
@@ -40,11 +40,11 @@ const Achievements = () => {
     }, [lightboxOpen]);
 
     const certThumbs = [
-        "/Screenshot 2026-03-12 204103.png",
-        "/Screenshot 2026-03-14 133856.png",
-        "/Screenshot 2026-03-14 133838.png",
-        "/Screenshot 2026-03-12 204121.png",
-        "/Screenshot 2026-03-12 204149.png"
+        `${import.meta.env.BASE_URL}Screenshot 2026-03-12 204103.png`,
+        `${import.meta.env.BASE_URL}Screenshot 2026-03-14 133856.png`,
+        `${import.meta.env.BASE_URL}Screenshot 2026-03-14 133838.png`,
+        `${import.meta.env.BASE_URL}Screenshot 2026-03-12 204121.png`,
+        `${import.meta.env.BASE_URL}Screenshot 2026-03-12 204149.png`
     ];
 
     return (
@@ -65,10 +65,10 @@ const Achievements = () => {
                             <h3>AWS Courses & Certificates</h3>
                             <p>Successfully completed Amazon Web Services (AWS) training courses, building a strong foundation in cloud computing infrastructure and services.</p>
                             <div className="pdf-gallery" style={{ display: 'flex', gap: '1rem', marginTop: '1.5rem', flexWrap: 'wrap' }}>
-                                <a href="/AWS.pdf" target="_blank" className="btn btn-secondary" style={{ padding: '0.5rem 1rem', fontSize: '0.9rem' }}>
+                                <a href={`${import.meta.env.BASE_URL}AWS.pdf`} target="_blank" className="btn btn-secondary" style={{ padding: '0.5rem 1rem', fontSize: '0.9rem' }}>
                                     <i className="fas fa-file-pdf" style={{ color: '#ff4757' }}></i> View AWS Certificate
                                 </a>
-                                <a href="/aws well-architected.pdf" target="_blank" className="btn btn-secondary" style={{ padding: '0.5rem 1rem', fontSize: '0.9rem' }}>
+                                <a href={`${import.meta.env.BASE_URL}aws well-architected.pdf`} target="_blank" className="btn btn-secondary" style={{ padding: '0.5rem 1rem', fontSize: '0.9rem' }}>
                                     <i className="fas fa-file-pdf" style={{ color: '#ff4757' }}></i> View Well-Architected
                                 </a>
                             </div>

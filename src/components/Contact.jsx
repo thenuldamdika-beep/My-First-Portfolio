@@ -59,10 +59,10 @@ const Contact = () => {
                             <p>thenul-damdika</p>
                         </a>
 
-                        <a href="https://github.com/Thenul-Damdika/portfolio" target="_blank" rel="noreferrer" className="contact-card">
+                        <a href="https://github.com/thenuldamdika-beep" target="_blank" rel="noreferrer" className="contact-card">
                             <div className="icon-circle"><i className="fab fa-github"></i></div>
                             <h4>GitHub</h4>
-                            <p>Thenul-Damdika</p>
+                            <p>thenuldamdika-beep</p>
                         </a>
                     </div>
 
