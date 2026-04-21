@@ -35,7 +35,7 @@ const About = () => {
                     <div className="about-text reveal-right">
                         <h3 className="about-subtitle">Software Engineering Student</h3>
                         <p>I am an undergraduate Software Engineering student at the <strong>University of
-                                Kelaniya</strong>. I have a profound interest in game development and designing intuitive
+                            Kelaniya</strong>. I have a profound interest in game development and designing intuitive
                             user interfaces (UI) and user experiences (UX).</p>
                         <p>My approach combines technical knowledge with creative design principles, allowing me to build
                             robust applications that also look fantastic. I am constantly learning new tools and paradigms
@@ -64,8 +64,8 @@ const About = () => {
                             </div>
                         </div>
                         <div style={{ marginTop: "2.5rem", display: "flex", gap: "1rem" }}>
-                            <a href={`${import.meta.env.BASE_URL}Thenul_Damdika_Resume.pdf`} download="Thenul_Damdika_Resume.pdf" className="btn btn-primary">
-                                <i className="fas fa-download"></i> Download Resume
+                            <a href={`${import.meta.env.BASE_URL}thenuldamdika's cv.pdf`} download="thenuldamdika's cv.pdf" className="btn btn-primary">
+                                <i className="fas fa-download"></i> Download Resume (April 2026)
                             </a>
                         </div>
                     </div>
